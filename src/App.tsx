@@ -1,13 +1,6 @@
 import { useState } from "react"
 
 const App = () => {
-  type ProductType = {
-    productId:number,
-    productName:string,
-    productPrize:string,
-    isActive:boolean
-  }
-
   const[cardToggle, setCardToggle] = useState(true)
   const handleToggle = () => {
     setCardToggle(!cardToggle)
