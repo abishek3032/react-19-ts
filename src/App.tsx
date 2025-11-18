@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const App = () => {
-  const[cardToggle, setCardToggle] = useState(true)
+  const[cardToggle, setCardToggle] = useState(false)
   const handleToggle = () => {
     setCardToggle(!cardToggle)
   }
